@@ -11,9 +11,9 @@ I'm doing an extensive rewrite of both books. They'll be available at
 We're aiming for September 2021 to publish the x86-64 version, and then we'll start on the ARM version.
 
 Meanwhile, you can read the original versions of
-[Introduction to Computer Organization with x86-64 Assembly Language & GNU/Linux](http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html)
+[Introduction to Computer Organization with x86-64 Assembly Language & GNU/Linux](http://bob.cs.sonoma.edu/)
 and
-[Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi](http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html)
+[Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi](http://bob.cs.sonoma.edu/)
 online. I don't charge for this, but be aware that you may need to pay connection fees on your end.
 If you want to buy your own copy of the original x86-64 version, I have self-published it both in
 [paperback](https://www.lulu.com/en/us/shop/robert-g-plantz/introduction-to-computer-organization-paper/paperback/product-1v9429de.html?page=1&pageSize=4)

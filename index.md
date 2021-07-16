@@ -10,6 +10,6 @@ We're aiming for September 2021 to publish the x86-64 version, and then we'll st
 
 Meanwhile, I'm learning how to use GitHub Pages with these links, which you can ignore for now:
 
-** Introduction to Computer Organization: An Under the Hood Look at Hardware and x86-64 Assembly
-
+Introduction to Computer Organization: An Under the Hood Look at Hardware and x86-64 Assembly
+---------------------------------------------------------------------------------------------
 [Solutions and other resources](./itco_x86-64/)

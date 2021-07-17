@@ -21,7 +21,7 @@
 title: Robert G. Plantz
 email: rgplantz@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Uses the Jeckyll Minima theme.
+  This is my home page.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rgplantz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: bobplantz

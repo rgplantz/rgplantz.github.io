@@ -6,8 +6,6 @@ layout: home
 ---
 This is the place where you'll find resources for my books, Introduction to Computer Organization, which will be available at
 [No Starch Press](https://nostarch.com/).
-We're aiming for September 2021 to publish the x86-64 version, and then we'll start on the ARM version.
+We're aiming for January 2022 to publish the x86-64 version, and then we'll start on the ARM version.
 
-Meanwhile, I'm in the process of posting the
-[solutions and other resources](./itco_x86-64/)
-for the x86-64 version.
+Meanwhile, I'm in the process of posting the [solutions and other resources for the x86-64](./itco_x86-64/) version.

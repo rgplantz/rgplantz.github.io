@@ -53,11 +53,11 @@ We can also write rules that do other things for us. For example, the only files
 # Build intAndString program
 
 intAndString: intAndString.c
-	gcc intAndString.c -o intAndString
+    gcc intAndString.c -o intAndString
 
 .PHONY: clean
 clean:
-	rm intAndString
+    rm intAndString
 ```
 The rule, `clean`, has no prerequisites. It simply executes its recipe, which deletes the file that is no longer needed (because we can easily build the program from the source file). Since there are no prerequisites to `clean`, if we happen to have a file named *clean* in the directory, the recipe would never get executed because `make` would think that the target is already up-to-date. We can avoid this problem by declaring our target as a prerequisite to a special built-in `make` target, `.PHONY` (see Section 4.8 in the `make` manual).
 
@@ -81,7 +81,7 @@ intAndString:
 
 .PHONY: clean
 clean:
-	rm intAndString
+    rm intAndString
 ```
 `make` will look for a source file named *intAndString.\** in the directory where the makefile is located. If it finds, say, *intAndString.c*, it will assume that the file is a C source file and that we want to compile it to produce a program named `intAndString`"
 ```
@@ -116,7 +116,7 @@ intAndString:
 
 .PHONY: clean
 clean:
-	rm intAndString
+    rm intAndString
 ```
 Now I get:
 ```
@@ -135,7 +135,7 @@ intAndString:
 
 .PHONY: clean
 clean:
-	rm intAndString
+    rm intAndString
 ```
 which gives:
 ```
@@ -157,7 +157,7 @@ sum9Ints: addNine.h addNine.c
 
 .PHONY: clean
 clean:
-	rm sum9Ints
+    rm sum9Ints
 ```
 The `main` function is in *sum9Ints.c*, which `make` finds when it looks for *sum9Ints.\**. The subfunction is in *addNine.c* which has an accompanying header file, *addNine.h*. Invoking this make file gives:
 ```
@@ -180,7 +180,7 @@ addNine.o: addNine.h
 
 .PHONY: clean
 clean:
-	rm sum9Ints.o addNine.o sum9Ints
+    rm sum9Ints.o addNine.o sum9Ints
 ```
 which gives
 ```
@@ -208,20 +208,20 @@ sum9Ints.o: addNine.h
 addNine.o: addNine.h
 
 sum9Ints.s: sum9Ints.c addNine.h
-	  gcc $(genasm) -o temp sum9Ints.c
-	  expand -t 8 temp > sum9Ints.s
-	  rm temp
+    gcc $(genasm) -o temp sum9Ints.c
+    expand -t 8 temp > sum9Ints.s
+    rm temp
 
 addNine.s: addNine.c addNine.h
-	  gcc $(genasm) -o temp addNine.c
-	  expand -t 8 temp > addNine.s
-	  rm temp
+    gcc $(genasm) -o temp addNine.c
+    expand -t 8 temp > addNine.s
+    rm temp
 
 .PHONY: clean allclean
 clean:
-	rm -f $(objects)
+    rm -f $(objects)
 allclean: clean
-	rm sum9Ints    
+    rm sum9Ints    
 ```
 The syntax for substituting the value of a variable is `$(`*variable_name*`)`.
 
@@ -246,15 +246,15 @@ threeFactorial: $(objects)
 threeFactorial.o: factorial.h
 
 threeFactorial.s: threeFactorial.c factorial.h
-	gcc $(genasm) -o temp threeFactorial.c
-	expand -t 8 temp > threeFactorial.s
-	rm temp
+    gcc $(genasm) -o temp threeFactorial.c
+    expand -t 8 temp > threeFactorial.s
+    rm temp
 
 .PHONY: clean allclean
 clean:
-	rm -f $(objects)
+    rm -f $(objects)
 allclean: clean
-	rm threefactorial  
+    rm threefactorial  
 ```
 When I build the program with this makefile, we can see that it compiles the C source file and assembles the assembly source file, and then links the two object files:
 ```
@@ -285,9 +285,9 @@ rulerAdd: $(objects)
 
 .PHONY: clean
 clean:
-	rm $(objects)
+    rm $(objects)
 allclean: clean
-	rm rulerAdd 
+    rm rulerAdd 
 ```
 I've defined my own variable, `myio`, to be the relative path to my `common` directory. Then I just set `VPATH` to equal this path.
 
@@ -310,20 +310,20 @@ convertDec.o: decToUInt.h writeStr.h readLn.h
 decToUInt.o: decToUInt.h
 
 convertDec.s: convertDec.c decToUInt.h writeStr.h readLn.h
-	gcc -S $(genasm) -o temp convertDec.c
-	expand -t 8 temp > convertDec.s
-	rm temp
+    gcc -S $(genasm) -o temp convertDec.c
+    expand -t 8 temp > convertDec.s
+    rm temp
 
 decToUInt.s:  decToUInt.c decToUInt.h
-	gcc -S $(genasm) -o temp decToUInt.c
-	expand -t 8 temp > decToUInt.s
-	rm temp
+    gcc -S $(genasm) -o temp decToUInt.c
+    expand -t 8 temp > decToUInt.s
+    rm temp
 
 .PHONY: clean allclean
 clean:
-	rm -f $(objects)
+    rm -f $(objects)
 allclean: clean
-	rm convertDec
+    rm convertDec
 ```
 Notice that I use the `-I` option to tell the compiler where to find the header files required by the compilation of the C files.
 

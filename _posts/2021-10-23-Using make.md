@@ -19,6 +19,10 @@ The rules in a makefile are typically written such that if you change any of the
 ## Writing a Makefile
 
 A makefile rule has this general format:
+<!--
+<i>target</i>: <i>prerequisites</i></br>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>recipe</i>
+-->
 ```
 TARGET_NAME: PREREQUISITE_NAMES
     RECIPE_COMMANDS

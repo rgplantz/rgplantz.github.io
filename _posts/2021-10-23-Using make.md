@@ -239,7 +239,7 @@ objects = threeFactorial.o factorial.o
 CC = gcc
 CFLAGS = -Wall -O0 -masm=intel -g
 AS = as
-ASFLAGE = --gstabs
+ASFLAGS = --gstabs
 genasm = -S -Wall -masm=intel -fno-asynchronous-unwind-tables \
 -fcf-protection=none
 

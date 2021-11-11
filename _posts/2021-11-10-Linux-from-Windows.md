@@ -18,9 +18,9 @@ Clicking on that icon brings up a menu that allows you to open a new window to y
 ![](selectWSL.png)
 
 Then click on the top icon in the black menu on the left and click on `Open Folder` to bring up a list of the folders in your home directory on your WSL system in Windows Explorer.
-![WSL in Explorer](/images/WSL_Explorer)
+![WSL in Explorer](/images/WSL_Explorer.png)
 
-Now you can select the directory an the file you want to work on.
+Now you can select the directory and the file you want to work on.
 ![working in WSL](/images/working_in_WSL.png)
 Notice that Visual Studio Code also opens a terminal pane in its window for you to use the command line in your Linux distro.
 

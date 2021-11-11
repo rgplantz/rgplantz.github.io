@@ -12,16 +12,16 @@ WSL only provides a command line interface. You cannot use the mouse in the WSL 
 
 When you launch Visual Studio Code, you'll see small icon in the lower, left corner that connects you to your Windows Subsystem for Linux installation.
 
-![Connect VSC to WSL](vsc2wsl.png)
+![Connect VSC to WSL](/images/vsc2wsl.png)
 
 Clicking on that icon brings up a menu that allows you to open a new window to you Linux distribution.
 ![](selectWSL.png)
 
 Then click on the top icon in the black menu on the left and click on `Open Folder` to bring up a list of the folders in your home directory on your WSL system in Windows Explorer.
-![](WSL_Explorer)
+![WSL in Explorer](/images/WSL_Explorer)
 
 Now you can select the directory an the file you want to work on.
-![](working_in_WSL.png)
+![working in WSL](/images/working_in_WSL.png)
 Notice that Visual Studio Code also opens a terminal pane in its window for you to use the command line in your Linux distro.
 
 One of the many nice features of using VSC with WSL is that you can copy and paste between files that you open in the Windows side and Linux side.

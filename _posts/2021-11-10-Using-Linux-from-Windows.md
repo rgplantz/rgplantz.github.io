@@ -1,4 +1,4 @@
-# Linux Programming in Windows
+# Doing Linux Programming in Windows
 
 ## Windows Subsystem for Linux
 

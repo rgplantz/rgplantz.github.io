@@ -14,7 +14,7 @@ When you launch Visual Studio Code, you'll see small icon in the lower, left cor
 
 ![Connect VSC to WSL](/images/vsc2wsl.png)
 
-Clicking on that icon brings up a menu that allows you to open a new window to you Linux distribution.
+Clicking on that icon brings up a menu that allows you to open a new window to your Linux distribution.
 ![select WSL](/images/selectWSL.png)
 
 Then click on the top icon in the black menu on the left and click on `Open Folder` to bring up a list of the folders in your home directory on your WSL system in Windows Explorer.

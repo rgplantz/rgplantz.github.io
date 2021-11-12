@@ -6,7 +6,7 @@ If you're using Windows 10 or 11, Microsoft provides some very nice tools that c
 
 The first step is to [install Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install). I went with the default Linux distribution, Ubuntu 20.04 LTS.
 
-WSL only provides a command line interface. You cannot use the mouse in the WSL window, which means that you cannot copy and paste between the Linux side and the Windows side. However, Microsoft offers a very nice editor, [Visual Studio Code (VSC)](https://code.visualstudio.com/), that interfaces very nicely with WSL.
+WSL only provides a command line interface. You cannot use the mouse in the WSL window, which means that you cannot copy and paste between the Linux side and the Windows side. However, Microsoft offers a free text editor, [Visual Studio Code (VSC)](https://code.visualstudio.com/), that interfaces very nicely with WSL.
 
 ## Visual Studio Code
 

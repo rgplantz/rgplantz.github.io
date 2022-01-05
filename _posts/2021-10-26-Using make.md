@@ -209,13 +209,13 @@ sum9Ints.o: addNine.h
 addNine.o: addNine.h
 
 sum9Ints.s: sum9Ints.c addNine.h
-    gcc $(genasm) -o temp sum9Ints.c
-    expand -t 8 temp > sum9Ints.s
+    gcc $(genasm) -o temp  $<
+    expand -t 8 temp > $@
     rm temp
 
 addNine.s: addNine.c addNine.h
-    gcc $(genasm) -o temp addNine.c
-    expand -t 8 temp > addNine.s
+    gcc $(genasm) -o temp $<
+    expand -t 8 temp > $@
     rm temp
 
 .PHONY: clean allclean
@@ -227,6 +227,8 @@ allclean: clean
 The syntax for substituting the value of a variable is `$(`*variable_name*`)`.
 
 I've added recipes for telling `gcc` to generate the assembly language equivalent of the C source code. The `gcc` compiler uses tabs for spacing the assembly language code it produces. That doesn't work well when I copy-and-paste into a Word document, so I use the `expand` command to convert tabs to the appropriate number of spaces.
+
+I've also used two very useful built-in variables in these assembly-language generation recipes. The `<` refers to the first argument on the list of prerequisites, and the `@` refers to the target file name. These single-letter variables don't need to be enclosed in parentheses.
 
 I may wish to delete the object files but not the executable program. So I've defined `clean` to delete the object files and `allclean` to also delete the program. Specifying `clean` as a prerequisite to `allclean` causes the `clean` recipe to be executed first. If I've already used `clean` to delete the object files, its recipe would fail when we use `allclean`, causing `make` to end with the `clean` recipe. The `-f` option tells `rm` to ignore nonexistent files, thus preventing the error condition from ending `make`.
 
@@ -247,8 +249,8 @@ threeFactorial: $(objects)
 threeFactorial.o: factorial.h
 
 threeFactorial.s: threeFactorial.c factorial.h
-    gcc $(genasm) -o temp threeFactorial.c
-    expand -t 8 temp > threeFactorial.s
+    gcc $(genasm) -o temp $<
+    expand -t 8 temp > $@
     rm temp
 
 .PHONY: clean allclean
@@ -311,13 +313,13 @@ convertDec.o: decToUInt.h writeStr.h readLn.h
 decToUInt.o: decToUInt.h
 
 convertDec.s: convertDec.c decToUInt.h writeStr.h readLn.h
-    gcc -S $(genasm) -o temp convertDec.c
-    expand -t 8 temp > convertDec.s
+    gcc -S $(genasm) -o temp $<
+    expand -t 8 temp > $@
     rm temp
 
 decToUInt.s:  decToUInt.c decToUInt.h
-    gcc -S $(genasm) -o temp decToUInt.c
-    expand -t 8 temp > decToUInt.s
+    gcc -S $(genasm) -o temp $<
+    expand -t 8 temp > $@
     rm temp
 
 .PHONY: clean allclean

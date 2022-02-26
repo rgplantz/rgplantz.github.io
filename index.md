@@ -9,4 +9,4 @@ layout: home
 
 This is the place where you'll find resources for my book, [Introduction to Computer Organization: An Under the Hood Look at Hardware and x86-64 Assembly](https://nostarch.com/introcomporg).
 
-You can download the [**solutions**](./itco_x86-64/) to the exercises in the x86-64 book along with the source code of the programs in the book from GitHub. And here are [**corrections**](./itco_x86-64/x86-64_errata.md) to errors that are found in the book.
+You can download the [**solutions**](./itco_x86-64/) to the exercises in the x86-64 book along with the source code of the programs in the book from GitHub. And here are [**corrections**](./itco_x86-64/gh-pages/x86-64_errata.md) to errors that are found in the book.

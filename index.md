@@ -7,6 +7,6 @@ layout: home
 <img align="right" width="150" style="border:14px solid white
 " src="./images/ComputerOrganization.png">
 
-This is the place where you'll find resources for my book, [Introduction to Computer Organization: An Under the Hood Look at Hardware and x86-64 Assembly](https://nostarch.com/introcomporg).
+[This is the place](./itco_x86-64/) where you'll find resources for my book, [Introduction to Computer Organization: An Under the Hood Look at Hardware and x86-64 Assembly](https://nostarch.com/introcomporg).
 
-You can download the [**solutions**](./itco_x86-64/) to the exercises in the x86-64 book along with the source code of the programs in the book from GitHub. And here are [**corrections**](./itco_x86-64/x86-64_errata.md) to errors that are found in the book.
+You'll find corrections to errors found in the book, solutions to most of the **Your Turn** exercises, and the source code for the example programs in the book. I don't include the compiler-generated assembly language because you can generate those files from the provided C/C++ source code files.

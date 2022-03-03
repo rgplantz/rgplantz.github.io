@@ -5,7 +5,7 @@
 layout: home
 ---
 <img align="right" width="150" style="border:14px solid white
-" src="./images/ComputerOrganization.png">
+" src="./images/book_cover.pdf">
 
 [This is the place](./itco_x86-64/) where you'll find resources for my book, [Introduction to Computer Organization: An Under the Hood Look at Hardware and x86-64 Assembly](https://nostarch.com/introcomporg).
 

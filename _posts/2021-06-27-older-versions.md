@@ -13,6 +13,6 @@ The original version of
 is still online.
 
 The current version of [Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi](http://bob.cs.sonoma.edu/)
-is only available online. I have started rewriting it.
+is only available online. I have started rewriting it, also for publication by [No Starch Press](https://nostarch.com/).
 
 I don't charge for the online verstions, but be aware that you may need to pay connection fees on your end.

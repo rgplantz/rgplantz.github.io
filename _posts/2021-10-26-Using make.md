@@ -10,7 +10,7 @@ We'll start by looking at some conventions that `make` follows regarding the nam
 
 ## Naming a Makefile
 
-If you enter the **make** command without specifying the name of a makefile, `make` looks for a makefile named, in this order, *GNUmakefile*,*makefile*, or *Makefile*. If it finds a makefile with one of these names, `make` follows the rules in that makefile and ignores any others with subsequent names on this list. I generally use *makefile*.
+If you enter the **make** command without specifying the name of a makefile, `make` looks for a makefile named, in this order, *GNUmakefile*,*makefile*, or *Makefile*. If it finds a makefile with one of these names, `make` follows the rules in that makefile and ignores any others with subsequent names on this list. I generally use *Makefile*.
 
 If you want to use a different name for your makefile, you can explicitly specify the name with the `-f` option. For example, the command **make -f myMakefile** will follow the rules in the *myMakefile* file.
 

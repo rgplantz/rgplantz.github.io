@@ -32,6 +32,8 @@ header_pages:
 
 # Build settings
 theme: minima
+minima:
+  date_format: "%Y-%m-%d"
 plugins:
   - jekyll-feed
 

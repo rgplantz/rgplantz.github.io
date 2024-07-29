@@ -31,7 +31,7 @@ header_pages:
     - about.md
 
 # Build settings
-theme: minimal
+theme: minima
 plugins:
   - jekyll-feed
 

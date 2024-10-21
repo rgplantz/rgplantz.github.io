@@ -18,3 +18,4 @@ These include:
 - Solutions to most of the **Your Turn** exercises
 - A list of corrections to the text; if you discover any errors, please [send me email](<mailto:bob@computer.org> "email at bottom"). I like to give credit to the person who finds the error; please let me know if it's okay to use your name.
 
+I'm learning more about [styling my site](./try_styling.md)

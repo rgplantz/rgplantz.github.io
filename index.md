@@ -4,12 +4,12 @@
 
 layout: home
 ---
+Here are some resources to help you get the most from reading my books, Introduction to Computer Organization:
+
 <img align="right" width="150" style="border:14px solid white
 " src="./assets/images/IntroCompOrgARM_frontcover.webp">
 <img align="right" width="150" style="border:14px solid white
 " src="./assets/images/ComputerOrganization.png">
-
-Here are some resources to help you get the most from reading my books, Introduction to Computer Organization:
 
 - [ARM version](./itco_ARM/)
 - [x86-64 version](./itco_x86-64/)

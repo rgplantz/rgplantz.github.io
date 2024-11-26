@@ -6,14 +6,10 @@ layout: home
 ---
 Here are some resources to help you get the most from reading my books, Introduction to Computer Organization:
 
-<img align="left" width="150" style="border:14px solid white
-" src="./assets/images/IntroCompOrgARM_frontcover.webp">
-<img align="right" width="150" style="border:14px solid white
-" src="./assets/images/ComputerOrganization.png">
 
-- [ARM version](./itco_ARM/)
-- [x86-64 version](./itco_x86-64/)
-
+[ARM version](./itco_ARM/)  |  [x86-64 version](./itco_x86-64/)
+:--------------------------:|:--------------------------------:|
+![](./assets/images/IntroCompOrgARM_frontcover.webp) | ![](./assets/images/ComputerOrganization.png)
 
 These include:
 - Source code for the example programs in the book; I don't include the compiler-generated assembly language because you can generate those files from the provided C/C++ source code files.

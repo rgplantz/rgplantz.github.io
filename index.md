@@ -11,5 +11,5 @@ Here are some resources to help you get the most from reading my books, includin
 
 [ARM version](./itco_ARM/)  |  [x86-64 version](./itco_x86-64/)
 :--------------------------:|:--------------------------------:|
-![](./assets/images/IntroCompOrgARM_frontcover.webp) | ![](./assets/images/ComputerOrganization.png)
+![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp) | ![x86 cover](./assets/images/ComputerOrganization.png)
 

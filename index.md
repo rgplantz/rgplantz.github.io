@@ -9,6 +9,7 @@ Here are some resources to help you get the most from reading my books, includin
 - Solutions to most of the **Your Turn** exercises
 - A list of corrections to the text; if you discover any errors, please [send me email](<mailto:bob@computer.org> "email at bottom"). I like to give credit to the person who finds the error; please let me know if it's okay to use your name.
 
-![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp) | ![x86 cover](./assets/images/ComputerOrganization.png)
-:--------------------------:|:--------------------------------:|
 [ARM version](./itco_ARM/)  |  [x86-64 version](./itco_x86-64/)
+:--------------------------:|:--------------------------------:|
+![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp) | ![x86 cover](./assets/images/ComputerOrganization.png)
+

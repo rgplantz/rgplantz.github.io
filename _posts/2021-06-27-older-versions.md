@@ -4,15 +4,14 @@ title:  "Older Versions of Introduction to Computer Organization"
 date:   2021-06-27 16:25:00 -0700
 # categories: jekyll update
 ---
-I've written two introductory-level books about computer hardware and how it's programmed. One is based on the Intel/AMD x86-64 instruction set, the other on the ARM instruction set used on the Raspberry Pi.
+I've written two introductory-level books about computer hardware and how it's programmed. One is based on the ARM instruction set used on the Raspberry Pi, the other on the Intel/AMD x86-64 instruction set. Both books are significant rewrites of the books I originally offered online.
 
-The latest x86-64 version is available at
-[No Starch Press](https://nostarch.com/).
-The original version of
-[Introduction to Computer Organization with x86-64 Assembly Language & GNU/Linux](http://bob.cs.sonoma.edu/)
-is still online.
+- [Introduction to Computer Organization, ARM version](https://nostarch.com/introcomputerorgforarm).
+The previous version is available online at 
+[Sonoma State University](https://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html).
 
-The current version of [Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi](http://bob.cs.sonoma.edu/)
-is only available online. I have started rewriting it, also for publication by [No Starch Press](https://nostarch.com/).
+- [Introduction to Computer Organization, x86-64 version](https://nostarch.com/introcomporg/).
+The previous version is available online at 
+[Sonoma State University](https://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html).
 
-I don't charge for the online verstions, but be aware that you may need to pay connection fees on your end.
+I don't charge for the online versions, but be aware that you may need to pay connection fees on your end.

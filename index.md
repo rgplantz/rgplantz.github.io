@@ -20,4 +20,4 @@ The ancillary resources for each book will help you to get the most from reading
 - Solutions to most of the **Your Turn** exercises
 - A list of corrections to the text; if you discover any errors, please [send me email](<mailto:bob@computer.org> "email at bottom"). I like to give credit to the person who finds the error; please let me know if it's okay to use your name.
 
-I don't charge for the online versions, but be aware that you may need to pay connection fees on your end.
+I don't charge for the superseded editions (online only), but be aware that you may need to pay connection fees on your end.

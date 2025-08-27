@@ -6,12 +6,12 @@ layout: home
 ---
 I've written two introductory-level books about computer hardware and how it's programmed. One is based on the ARM instruction set used on the Raspberry Pi, the other on the Intel/AMD x86-64 instruction set. Both books are significant rewrites of the books I originally offered online.
 
-- [Introduction to Computer Organization, ARM version](https://nostarch.com/introcomputerorgforarm). I provide [ancillary resources](./itco_ARM/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html) is still online.
+- [Introduction to Computer Organization, ARM version](https://nostarch.com/introcomputerorgforarm). I provide [ancillary resources](./itco_ARM/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html) is still online ***but will be removed on 31 December 2025***.
 
   ![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp)
 
 
-- [Introduction to Computer Organization, x86-64 version](https://nostarch.com/introcomporg/). I provide [ancillary resources](./itco_x86-64/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html) is still online.
+- [Introduction to Computer Organization, x86-64 version](https://nostarch.com/introcomporg/). I provide [ancillary resources](./itco_x86-64/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html) is still online ***but will be removed on 31 December 2025***.
 
   ![x86 cover](./assets/images/ComputerOrganization.png)
 

@@ -8,7 +8,7 @@ I've written two introductory-level books about computer hardware and how it's p
 
 - [Introduction to Computer Organization, ARM version](https://nostarch.com/introcomputerorgforarm). I provide [ancillary resources](./itco_ARM/) for this book.
 
-  ![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp)
+  ![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp){: .float-right}
 
 
 - [Introduction to Computer Organization, x86-64 version](https://nostarch.com/introcomporg/). I provide [ancillary resources](./itco_x86-64/) for this book.

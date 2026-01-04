@@ -11,7 +11,7 @@ I've written two introductory-level books about computer hardware and how it's p
   ![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp)
 
 - [Introduction to Computer Organization, x86-64 version](https://nostarch.com/introcomporg/). I provide [ancillary resources](./itco_x86-64/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html) can only be used online, and I no longer maintain it.
-
+- 
   ![x86 cover](./assets/images/ComputerOrganization.png)
 
 The ancillary resources for each book will help you to get the most from reading my books, including:

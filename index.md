@@ -7,11 +7,11 @@ layout: home
 I've written two introductory-level books about computer hardware and how it's programmed. One is based on the 64-bit ARM instruction set, AArch64, using a Raspberry Pi as an example. The other is based on the 64-bit Intel/AMD instruction set, x86-64, using Ubuntu Linux on a PC as an example. Both books are significant rewrites of the books I originally offered online. The editors at No Starch Press and the technical reviewers they used helped me to write much better books.
 
 - [Introduction to Computer Organization, ARM version](https://nostarch.com/introcomputerorgforarm). I provide [ancillary resources](./itco_ARM/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html) can only be used online, and I no longer maintain it. Also, it uses the 32-bit ARM instruction set, AArch32.
-- 
+
   ![ARM cover](./assets/images/IntroCompOrgARM_frontcover.webp)
 
 - [Introduction to Computer Organization, x86-64 version](https://nostarch.com/introcomporg/). I provide [ancillary resources](./itco_x86-64/) for this book. The [superseded edition](https://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html) can only be used online, and I no longer maintain it.
-- 
+
   ![x86 cover](./assets/images/ComputerOrganization.png)
 
 The ancillary resources for each book will help you to get the most from reading my books, including:
